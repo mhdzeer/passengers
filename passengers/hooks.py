@@ -5,6 +5,9 @@ app_description = "Extract and store passenger data from Bahrain CPR identity ca
 app_email = "your@email.com"
 app_license = "MIT"
 
+app_include_js = []
+app_include_css = []
+
 doc_events = {
     "Passenger": {
         "validate": "passengers.passengers.doctype.passenger.passenger.extract_data_from_cpr"
